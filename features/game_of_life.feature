@@ -36,7 +36,7 @@ Feature: Game of Life
       | . | . | . |
       | # | . | # |
 
-	Scenario: Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
+  Scenario: Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
     Given the game board looks like this:
       | # | # | . |
       | # | . | . |
